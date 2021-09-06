@@ -35,11 +35,32 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Colors */
 
 .bg-gradient {
     background: rgb(28,63,168);
     background: linear-gradient(90deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+}
+
+/* Text Colors */
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.text-light {
+    color: var(--light-color);
 }
 
 /* Buttons */
