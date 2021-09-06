@@ -37,6 +37,7 @@ h1, h2 {
 }
 
 p {
+    font-size: 18px;
     margin: 10px 0;
 }
 
@@ -46,7 +47,8 @@ img {
 
 /* Navbar */
 .navbar {
-    color: #000;
+    background-color: var(--primary-color);
+    color: #fff;
     height: 70px;
 }
 
@@ -55,16 +57,39 @@ img {
 }
 
 .navbar a {
-    color: #000;
+    color: #fff;
     font-size: 18px;
     padding: 0 10px;
     margin: 0 5px;
 }
 
 .navbar a:hover {
-    border-bottom: 2px #000 solid;
+    border-bottom: 2px #fff solid;
 }
 
 .navbar .flex {
     justify-content: space-between;
+}
+
+/* Showcase */
+.showcase {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.showcase-text {
+    margin-top: 100px;
+}
+
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase p {
+    margin: 20px 0;
+}
+
+.showcase-text {
+    animation: slideInFromLeft 1s ease-in;
 }
