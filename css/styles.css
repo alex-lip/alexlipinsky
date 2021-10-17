@@ -5,9 +5,17 @@
 }
 
 .container {
-  margin:auto;
+  margin: 100px auto;
   font-family: 'Lato', sans-serif;
-  text-align: center;
-  padding: 50px 0;
   width: 500px;
+  text-align: center;
+}
+
+.links {
+  margin: 25px 0;
+}
+
+i {
+  padding: 0 10px;
+  color: rgb(1, 10, 129);
 }
