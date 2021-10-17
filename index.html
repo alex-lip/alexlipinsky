@@ -5,43 +5,71 @@
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Alex Lipinsky</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+    <script>
+      window.onload = function () {
+        Particles.init({
+          selector: ".background",
+          maxParticles: 180,
+          connectParticles: true,
+          color: '#c1c1c1',
+        });
+      };
+    </script>
   </head>
   <body>
     <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
     <![endif]-->
 
     <div class="container">
       <h1>Hi, I'm Alex Lipinsky</h1>
-      <p>I'm an industrial distribution professional and software engineer. </p>
+      <p>I'm an industrial distribution professional and software engineer.</p>
       <p>I'm interested in tech, investing, and business history.</p>
-      <p>I love reading and listening to podcasts, and I plan on using my newsletter as a place to connect
-        the dots and learn in public.</p>
+      <p>
+        I love reading and listening to podcasts, and I plan on using my
+        newsletter as a place to connect the dots and learn in public.
+      </p>
 
       <div class="links">
-        <a href="https://www.linkedin.com/in/alexlipinsky/"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a href="https://github.com/alex-lip"><i class="fab fa-github fa-2x"></i></a>
-        <a href="https://twitter.com/alexlipinsky"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/alexlipinsky/"
+          ><i class="fab fa-linkedin fa-2x"></i
+        ></a>
+        <a href="https://github.com/alex-lip"
+          ><i class="fab fa-github fa-2x"></i
+        ></a>
+        <a href="https://twitter.com/alexlipinsky"
+          ><i class="fab fa-twitter fa-2x"></i
+        ></a>
       </div>
 
       <div class="substack">
-        <a href="https://manufacturing.substack.com/?r=lym0a&utm_campaign=pub&utm_medium=web&utm_source=">
-          Manufacturing Stack: Weekly newsletter about the business of manufacturing and industrial history.</a>
+        <a
+          href="https://manufacturing.substack.com/?r=lym0a&utm_campaign=pub&utm_medium=web&utm_source="
+        >
+          Manufacturing Stack: Weekly newsletter about the business of
+          manufacturing and industrial history.</a
+        >
       </div>
-
     </div>
 
+    <canvas class="background"></canvas>
 
-    
-    <script src="" async defer></script>
+    <script src="path/to/particles.min.js"></script>
   </body>
 </html>
