@@ -4,24 +4,24 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #f6f9fc;
 }
+
+
+.container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 15px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background-color: #fff;
+}
+
 .background {
   position: absolute;
   display: block;
   top: 0;
   left: 0;
-  z-index: 1;
-}
-/* * {
-  background-color: #f6f9fc;
-} */
-
-.container {
-  margin: 100px auto;
-  font-family: "Lato", sans-serif;
-  width: 500px;
-  text-align: center;
-  background-color: #fff;
 }
 
 p {
