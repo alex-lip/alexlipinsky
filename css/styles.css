@@ -19,3 +19,11 @@ i {
   padding: 0 10px;
   color: rgb(1, 10, 129);
 }
+
+/* Mobile */
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+
+}
