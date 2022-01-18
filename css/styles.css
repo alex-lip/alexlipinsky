@@ -222,7 +222,7 @@ h2 {
 
 /* Mobile */
 @media (max-width: 500px) {
-  /* .container {
-    width: 350px;
-  } */
+  .menu-bar {
+    flex-direction: column;
+  }
 }
