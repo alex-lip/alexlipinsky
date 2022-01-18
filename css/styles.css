@@ -212,6 +212,7 @@ h2 {
   height: 144px;
   width: 144px;
   border-radius: 50%;
+  align-self: center;
 }
 
 
@@ -251,5 +252,10 @@ h2 {
   .link-bar,
   .menu-links {
     justify-content: center;
+  }
+
+  .profile-about img {
+    height: 100px;
+    width: 100px;
   }
 }
