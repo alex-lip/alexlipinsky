@@ -225,4 +225,8 @@ h2 {
   .menu-bar {
     flex-direction: column;
   }
+  .link-bar,
+  .menu-links {
+    justify-content: center;
+  }
 }
