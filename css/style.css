@@ -37,6 +37,37 @@ body {
       margin: 15px 25px;
   }
 
+  .contact-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .contact-box svg {
+      margin: 25px;
+      color: #29335F;
+      transition: 0.4s;
+  }
+
+  .contact-box button {
+      margin: 25px;
+      background-color: #29335F;
+      color: #fff;
+      padding: 10px 15px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: 0.4s;
+  }
+
+  .contact-box button:hover {
+      background-color: var(--primary-color);
+  }
+  
+  .contact-box svg:hover {
+      color: var(--primary-color);
+  }
+
   /* Showcase */
   .showcase {
       margin: 100px auto;
@@ -88,16 +119,33 @@ body {
     z-index: 9999;
     position: relative;
     border-radius: 15px;
-    margin-top: 50px;
+    margin: 50px 0;
     padding: 25px;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border: 1px solid var(--gray-color);
+    border: 1px solid #f2f2f2;
 }
 
-/* .skill-item {
-    width: 100%;
-    border-right: 1px solid #E6ECF8
-} */
+.skill-item {
+    width: 300px;
+    padding-top:50px;
+    
+}
+
+.skill-item svg {
+    color: var(--primary-color);
+    margin-bottom: 25px;
+}
+
+.skill-item h2 {
+    margin: 25px 0;
+}
+
+.skill-header-text {
+    color: var(--primary-color);
+    margin: 50px 0 25px 0;
+}
+
+/*  */
