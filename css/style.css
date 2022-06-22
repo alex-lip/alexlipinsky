@@ -2,8 +2,12 @@
 
 :root {
     --gray-color: #141c3a; 
-    --primary-color: #7510F7;
-    
+    /* --primary-color: #7510F7; */
+    --pink-color: #f72585;
+    --purple-color: #7209b7;
+    --dark-blue-color: #3a0ca3;
+    --primary-color: #4361ee;
+    --light-blue-color: #4cc9f0;
   }
 
 * {
@@ -34,7 +38,15 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      align-content: center;
+      align-items: center;
       margin: 15px 25px;
+  }
+
+  .navbar img {
+      height: 50px;
+      width: 250px;
+      margin: 25px;
   }
 
   .contact-box {
@@ -45,13 +57,13 @@ body {
 
   .contact-box svg {
       margin: 25px;
-      color: #29335F;
+      color: var(--dark-blue-color);;
       transition: 0.4s;
   }
 
   .contact-box .newsletter-link {
       margin: 25px;
-      background-color: #29335F;
+      background-color: var(--dark-blue-color);
       color: #fff;
       padding: 10px 15px;
       font-weight: 600;
@@ -115,7 +127,7 @@ body {
 
 .skills-box {
     background-color: #fff;
-    height: 400px;
+    /* height: 400px; */
     z-index: 9999;
     position: relative;
     border-radius: 15px;
